@@ -67,3 +67,5 @@ curl https://pyenv.run | bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
+# Install Nvchad
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
