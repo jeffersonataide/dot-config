@@ -2,10 +2,10 @@
 configuration for various programs
 
 
-initial-install-scrips
+## initial-install-scrips
   
-  contain scripts to install programs and do some initial configuration on linux systems
+contains scripts to install programs and do some initial configuration on linux systems
 
-config-files
+## config-files
   
-  contain config files for varios applications
+contains config files for various applications
