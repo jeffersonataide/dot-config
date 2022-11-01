@@ -1,0 +1,9 @@
+{
+  "diagnostic.displayByAle": true,
+  "python.venvPath": "~/.local/share/virtualenvs/",
+  "python.formatting.provider": "black",
+  "npm.binPath": "~/.nvm/versions/node/v12.9.1/bin/npm"
+  //"eslint.autoFixOnSave": false,
+  //"eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+}
+

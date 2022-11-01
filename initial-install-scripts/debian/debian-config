@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#update Debian
+sudo apt update
+sudo apt dist-upgrade
+
+# Install basic software
+sudo apt install tmux zsh qbittorrent testdisk htop vim grsync calibre Zim keepassxc nodejs darktable krita inkscape gimp powerline-fonts tmux-powerline vim-powerline httrack ffmpeg vlc gnucash ImageMagick kdenlive gitk gitg mpv silversearcher-ag ripgrep
+
+#changes de default shell to zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install vundle plugin manager for vim
+cp ./vimrc ~/.vim/vimrc
+
+# Configure .bashrc
+ cp ./bashrc ~/.bashrc
+

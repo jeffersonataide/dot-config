@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# update the system
+sudo zypper up -y
+
+# install basic software
+sudo zypper install tmux zsh qbittorrent testdisk htop vim neovim grsync calibre keepassxc nodejs darktable krita inkscape gimp powerline-fonts tmux-powerline vim-powerline vlc gnucash ImageMagick gitk gitg mpv the_silver_searcher ripgrep cherrytree blender flatpak
+
+# configure codecs
+# sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/' packman
+
+sudo zypper refresh
+# sudo zypper dist-upgrade --from packman --allow-vendor-change
+# sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full vlc-codecs
+
+# configure flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
