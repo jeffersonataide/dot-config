@@ -69,3 +69,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install Nvchad
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+
+# Install Lunarvim
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
