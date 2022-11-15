@@ -1,3 +1,61 @@
+window:
+  opacity: 0.95
+  startup_mode: Maximized
+
+  padding:
+   x: 5
+   y: 5
+
+colors:
+  primary:
+   background: '#1e2030'
+   foreground: '#c5c8c6'
+
+  # Normal colors
+  normal:
+   black:   '#1d1f21'
+   red:     '#cc6666'
+   green:   '#b5bd68'
+   yellow:  '#f0c674'
+   blue:    '#81a2be'
+   magenta: '#b294bb'
+   cyan:    '#8abeb7'
+   white:   '#c5c8c6'
+
+  # Bright colors
+  bright:
+   black:   '#666666'
+   red:     '#d54e53'
+   green:   '#b9ca4a'
+   yellow:  '#e7c547'
+   blue:    '#7aa6da'
+   magenta: '#c397d8'
+   cyan:    '#70c0b1'
+   white:   '#eaeaea'
+
+font:
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+
+  bold:
+    family: Hack Nerd Font
+    style: Bold
+
+  italic:
+    family: Hack Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: Hack Nerd Font
+    style: Bold Italic
+
+  # Point size
+  size: 12.0
+
+key_bindings:
+  - { key: Return,              mods: Control,                    action: SpawnNewInstance      }
+
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
 # Import additional configuration files
@@ -23,7 +81,7 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-window:
+# window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. The number of columns
@@ -67,7 +125,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.95
+  # opacity: 0.95
 
   # Startup Mode (changes require restart)
   #
@@ -78,7 +136,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: Maximized
+  # startup_mode: Maximized
 
   # Window title
   #title: Alacritty
@@ -189,11 +247,11 @@ window:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-colors:
+# colors:
   # Default colors
-  primary:
-   background: '#1e2030'
-   foreground: '#c5c8c6'
+  # primary:
+  #  background: '#1e2030'
+  #  foreground: '#c5c8c6'
 
     # Bright and dim foreground colors
     #
@@ -745,8 +803,7 @@ colors:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-key_bindings:
-  - { key: Return,              mods: Control,                    action: SpawnNewInstance      }
+# key_bindings:
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
