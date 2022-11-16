@@ -27,6 +27,7 @@ vim neovim \
 libreoffice libreoffice-langpack-pt-BR \
 calibre vlc mpv hexchat Zim \
 qbittorrent \
+git \
 darktable inkscape  gimp krita obs-studio \
 keepassxc gnucash the_silver_searcher ripgrep \
 zsh-syntax-highlighting zsh-autosuggestions \
