@@ -34,7 +34,7 @@ google-chrome-stable chromium
 
 # Install optional software
 sudo dnf install \
-testdisk ImageMagick sqlitebrowser /
+testdisk ImageMagick sqlitebrowser \
 stow alacritty
 # powerline-fonts tmux-powerline grsync \
 
