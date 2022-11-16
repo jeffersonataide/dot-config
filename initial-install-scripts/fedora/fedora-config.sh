@@ -52,7 +52,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 # Install dev software
 sudo dnf install \
 sqlite-devel postgresql-devel mysql-devel \
-gitg kitty pipenv
+gitg kitty pipenv gcc-c++
 # nodejs
 # pipenv
 
