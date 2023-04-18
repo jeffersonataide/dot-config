@@ -15,23 +15,23 @@ colors:
   normal:
    black:   '#1d1f21'
    red:     '#cc6666'
-   green:   '#b5bd68'
+   green:   '#b9ca4a'
    yellow:  '#f0c674'
    blue:    '#81a2be'
    magenta: '#b294bb'
    cyan:    '#8abeb7'
-   white:   '#c5c8c6'
+   white:   '#ffffff'
 
   # Bright colors
   bright:
    black:   '#666666'
    red:     '#d54e53'
-   green:   '#b9ca4a'
+   green:   '#b5bd68'
    yellow:  '#e7c547'
    blue:    '#7aa6da'
    magenta: '#c397d8'
    cyan:    '#70c0b1'
-   white:   '#eaeaea'
+   white:   '#c5c8c6'
 
 font:
   normal:
