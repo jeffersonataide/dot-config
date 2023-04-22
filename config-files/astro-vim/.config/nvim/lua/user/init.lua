@@ -27,6 +27,7 @@ local config = {
 
   -- Set colorscheme to use
   colorscheme = "default_theme",
+  -- colorscheme = "tokyonight-moon",
 
   -- Add highlight groups in any theme
   highlights = {
@@ -50,7 +51,7 @@ local config = {
     },
     g = {
       mapleader = " ", -- sets vim.g.mapleader
-      autoformat_enabled = true, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
+      autoformat_enabled = false, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
       cmp_enabled = true, -- enable completion at start
       autopairs_enabled = true, -- enable autopairs at start
       diagnostics_enabled = true, -- enable diagnostics at start
@@ -217,6 +218,8 @@ local config = {
   -- Configure plugins
   plugins = {
     init = {
+      { "tpope/vim-unimpaired" },
+      { 'folke/tokyonight.nvim' }
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
 
