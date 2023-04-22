@@ -6,5 +6,4 @@ return {
       autoformat = false,
     },
   },
-  { import = "lazyvim.plugins.extras.lang.typescript" },
 }
