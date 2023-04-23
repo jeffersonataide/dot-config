@@ -56,3 +56,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export PNPM_HOME="/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+
+# custom scripts
+source ~/.config/custom_commands/*.zsh
