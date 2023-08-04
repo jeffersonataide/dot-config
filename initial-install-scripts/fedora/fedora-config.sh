@@ -36,7 +36,7 @@ google-chrome-stable chromium
 # Install optional software
 sudo dnf install \
 testdisk ImageMagick sqlitebrowser \
-stow alacritty
+stow alacritty git-delta
 # powerline-fonts tmux-powerline grsync \
 
 # configure flatpak
