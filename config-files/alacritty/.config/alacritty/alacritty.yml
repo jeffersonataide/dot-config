@@ -35,20 +35,7 @@ colors:
 
 font:
   normal:
-    family: Hack Nerd Font
-    style: Regular
-
-  bold:
-    family: Hack Nerd Font
-    style: Bold
-
-  italic:
-    family: Hack Nerd Font
-    style: Italic
-
-  bold_italic:
-    family: Hack Nerd Font
-    style: Bold Italic
+    family: "MesloLGS NF"
 
   # Point size
   size: 12.0
