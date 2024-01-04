@@ -19,6 +19,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='nvim'
 
 fetch() {
+  git fetch --prune
   git fetch
   echo "\n--- Finished fetching ---\n"
   git status
