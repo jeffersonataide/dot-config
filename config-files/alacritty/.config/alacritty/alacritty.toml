@@ -1,0 +1,45 @@
+[colors.bright]
+black = "#666666"
+blue = "#7aa6da"
+cyan = "#70c0b1"
+green = "#b5bd68"
+magenta = "#c397d8"
+red = "#d54e53"
+white = "#c5c8c6"
+yellow = "#e7c547"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#81a2be"
+cyan = "#8abeb7"
+green = "#b9ca4a"
+magenta = "#b294bb"
+red = "#cc6666"
+white = "#ffffff"
+yellow = "#f0c674"
+
+[colors.primary]
+background = "#1e2030"
+foreground = "#c5c8c6"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "MesloLGS NF"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control"
+
+[window]
+opacity = 0.95
+startup_mode = "Maximized"
+
+[window.padding]
+x = 5
+y = 5
