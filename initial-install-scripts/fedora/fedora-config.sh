@@ -64,6 +64,9 @@ sudo dnf install make gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sql
 
 curl https://pyenv.run | bash
 
+# TPM - Tmux Plugin Manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
