@@ -66,11 +66,6 @@ export PATH
 # add Tmuxifier to PATH
 PATH="$PATH:$HOME/.tmux/plugins/tmuxifier/bin"
 
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 fpath+=~/.zfunc
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
@@ -82,12 +77,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 eval "$(tmuxifier init -)"
 
 eval "$(direnv hook zsh)"
-
-# pnpm
-export PNPM_HOME="/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
-
 
 # custom scripts
 source ~/.config/custom_commands/*.zsh
