@@ -63,8 +63,8 @@ then
 fi
 export PATH
 
-# add flyctl to path
-PATH="$HOME/.fly/bin:$HOME/bin:$PATH"
+# add Tmuxifier to PATH
+PATH="$PATH:$HOME/.tmux/plugins/tmuxifier/bin"
 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
@@ -78,7 +78,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+# tmuxifier tmux plugin
+eval "$(tmuxifier init -)"
 
 # pnpm
 export PNPM_HOME="/.local/share/pnpm"
