@@ -79,4 +79,4 @@ eval "$(tmuxifier init -)"
 eval "$(direnv hook zsh)"
 
 # custom scripts
-source ~/.config/custom_commands/*.zsh
+source <(cat ~/.config/custom_commands/*.zsh)||echo "ERROR: failed while sourcing $?"
