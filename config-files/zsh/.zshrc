@@ -25,6 +25,12 @@ fetch() {
   git status
 }
 
+resolve_pnpm_lock() {
+  git reset pnpm-lock.yaml
+  pnpm install
+  git add pnpm-lock.yaml
+}
+
 # auto added by scrips
 
 export NVM_DIR="$HOME/.nvm"
