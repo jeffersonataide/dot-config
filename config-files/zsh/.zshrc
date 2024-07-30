@@ -91,3 +91,9 @@ eval "$(direnv hook zsh)"
 
 # custom scripts
 source <(cat ~/.config/custom_commands/*.zsh)||echo "ERROR: failed while sourcing $?"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+eval "$(pyenv virtualenv-init -)"
