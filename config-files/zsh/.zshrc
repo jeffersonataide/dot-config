@@ -31,6 +31,11 @@ resolve_pnpm_lock() {
   git add pnpm-lock.yaml
 }
 
+clean_branch() {
+  git restore .
+  git clean -f -d
+}
+
 # auto added by scrips
 
 export NVM_DIR="$HOME/.nvm"
